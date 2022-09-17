@@ -16,10 +16,11 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
+
 allprojects {
     repositories {
         mavenCentral()
-        maven { url "https://jitpack.io" }
+        maven { url "https://jitpack.io"}
     }
 }
 dependencies {
@@ -32,5 +33,5 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
     
-    implementation 'com.github.User:Repo:Version'
+    implementation 'com.github.kycasdzxc:Repo:Version'
 }
